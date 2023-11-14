@@ -1,0 +1,68 @@
+/* Estilos para la pag patrones.php */
+
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 5px;
+
+    
+}
+.main-section form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 10px 50px 20px;
+
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: #001B79;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+.main-section form h2{
+    margin: auto;
+}
+
+.contenedor-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.contenedor-input div{
+    margin: auto;
+    padding: 8px 0;
+    justify-content: center;
+}
+.contenedor-input div select{
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    outline-color: #001B79;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type='text'] {
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: none;
+    outline-color: #001B79;   
+}
+input[type='submit']{
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #001B79;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}

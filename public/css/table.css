@@ -1,0 +1,38 @@
+/* Hoja de estilos para las tablas */
+
+.res{
+    margin: auto;
+    width: 75%;
+}
+.tabla-minimalista {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .tabla-minimalista thead tr th,
+  .tabla-minimalista tbody tr td {
+    border: 1px solid whitesmoke;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .tabla-minimalista thead tr th {
+    background-color: #001B79;
+    color: whitesmoke;
+  }
+
+  .tabla-minimalista tbody tr td {
+    background-color: lightgray;
+  }
+
+  .res p{
+    font-size: 20px;
+      text-align: center;
+      margin: 3% 0;
+  }
+  .advertencia{
+    font-size: 20px;
+      text-align: center;
+      margin: 3% 0;
+      color: red;
+  }
